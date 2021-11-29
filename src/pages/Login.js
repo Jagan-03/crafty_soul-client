@@ -106,7 +106,7 @@ const Login = () => {
                         <span className="badge rounded-circle bg-dark p-2">Or</span>
                         <div>
                         <GoogleLogin 
-                          clientId="1312823965-251809ss0ni3qgp6tqu4jn6e03g2116p.apps.googleusercontent.com"
+                          clientId="1312823965-e6vshng1kb64gur17a3ihud2os7vmi8o.apps.googleusercontent.com"
                           render={(GoogleLoginProps) => (
                             <button onClick={GoogleLoginProps.onClick} className="btn text-light btn-block mt-4 google-login">
                               <i className="fab fa-google-plus-g"></i>  Login in with Google

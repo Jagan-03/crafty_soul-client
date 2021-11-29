@@ -40,14 +40,6 @@ const Register = () => {
     },
   });
 
-  const googleRegister = async () => {
-    // try {
-    //   await registerGoogle();
-    // } catch (error) {
-    //   console.log(error);
-    // }
-  }
-
   return (
     <div className="login container mt-5 text-center">
 
@@ -137,13 +129,6 @@ const Register = () => {
                           </button>
                         </div>
                         </form>
-
-                        <span className="badge rounded-circle bg-dark p-2">Or</span>
-                        <div>
-                            <button onClick={googleRegister} className="btn text-light btn-block mt-4 google-login">
-                             <i class="fab fa-google-plus-g"></i>  Register with Google
-                            </button>
-                        </div>
                 </div>
             </div>
             <div className="col-md-6 d-flex align-items-center justify-content-center">
