@@ -16,8 +16,10 @@ const Navbar = () => {
     const user_id = localStorage.getItem('user_id');
     const userCart = cartItems.filter(item => item.user_id === user_id);
     setCart(userCart);
-    if(localStorage.getItem('profile') !== "null") {  
-      setUserData(JSON.parse(localStorage.getItem('profile')).result);
+    if(localStorage.getItem('profile')){
+      if(localStorage.getItem('profile') !== "null") {  
+        setUserData(JSON.parse(localStorage.getItem('profile')).result);
+      }
     }
   }, [cartItems, userSignedIn]);
 
